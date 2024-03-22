@@ -1,0 +1,67 @@
+{
+  "legend": {
+    "data": [
+      "Allocated Budget",
+      "Used Budget"
+    ]
+  },
+  "radar": {
+    "shape": "circle",
+    "indicator": [
+      {
+        "name": "Household",
+        "max": 65000
+      },
+      {
+        "name": "Daily Expenses",
+        "max": 16000
+      },
+      {
+        "name": "Investments",
+        "max": 30000
+      },
+      {
+        "name": "Travel Expenses",
+        "max": 38000
+      },
+      {
+        "name": "Food",
+        "max": 52000
+      },
+      {
+        "name": "Entertainment",
+        "max": 25000
+      }
+    ]
+  },
+  "series": [
+    {
+      "name": "Budget vs spending",
+      "type": "radar",
+      "data": [
+        {
+          "value": [
+            10000,
+            5000,
+            20000,
+            35000,
+            50000,
+            18000
+          ],
+          "name": "Allocated Budget"
+        },
+        {
+          "value": [
+            6000,
+            4000,
+            16000,
+            27000,
+            35000,
+            2000
+          ],
+          "name": "Used Budget"
+        }
+      ]
+    }
+  ]
+}
